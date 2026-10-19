@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "delve-fs"
-version = "0.1.7"
+version = "0.1.7+purvislab.1"
 description = "Feature selection for preserving biological trajectories from single-cell data"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -14,10 +14,10 @@ authors = [
 dependencies = [
     "anndata>=0.7.6",
     "sketchKH>=0.1.4",
-    "numpy>=1.26.4,<2.0",
+    "numpy>=1.26.4",
     "scipy>=1.7.1",
     "scikit-learn>=0.23.2",
-    "umap-learn==0.5.1",
+    "umap-learn>=0.5.1",
     "matplotlib>=3.7.1",
     "seaborn>=0.12.2",
     "scanpy>=1.8.1", 
